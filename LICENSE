@@ -1,0 +1,11 @@
+Copyright (c) 2026 Erdem Yıldırım. All rights reserved.
+
+This is a demonstration prepared for the HERIFORGE application. It is NOT open-source software.
+You may open and view it in a web browser. You may not copy, modify, redistribute, host elsewhere, or reuse the
+code, the 3D model, the videos, the sound or any other part of it without the written permission of the copyright holder.
+
+This licence covers this demo prototype only. The portal developed in the HERIFORGE project is intended to be released
+as open source; that is a separate matter and nothing in this demo is licensed for reuse.
+
+Third-party components (three.js, Omnitone, parts of Spark, Meta's WebXR controller models) are used under their own
+licences, which stay with them: see THIRD-PARTY-NOTICES.txt and vendor/xr-profiles/LICENSE.md.

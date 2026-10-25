@@ -1,0 +1,252 @@
+{
+  "title": {
+    "en": "Flag Museum",
+    "tr": "Bayrak Müzesi"
+  },
+  "floorY": 0,
+  "eyeHeight": 1.6,
+  "model": {
+    "url": "media/room-mesh.glb",
+    "position": [
+      0,
+      -8.5,
+      0
+    ],
+    "rotationDeg": [
+      -90,
+      0,
+      0
+    ],
+    "scale": 1
+  },
+  "start": {
+    "position": [
+      -17.804,
+      -4.796,
+      8.488
+    ],
+    "yawDeg": -54.2
+  },
+  "sequence": [
+    {
+      "hotspot": "giris",
+      "guide": []
+    },
+    {
+      "hotspot": "ana-sergi",
+      "guide": [
+        [
+          -11.2,
+          -2,
+          8.52
+        ],
+        [
+          -11.2,
+          1.5,
+          9.02
+        ],
+        [
+          -11.2,
+          8.5,
+          9.11
+        ],
+        [
+          -12.5,
+          8.5,
+          9.11
+        ],
+        [
+          -13.75,
+          8.5,
+          9.11
+        ],
+        [
+          -13.75,
+          11,
+          9.11
+        ]
+      ]
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "giris",
+      "title": {
+        "en": "Entrance",
+        "tr": "Giriş"
+      },
+      "layer": {
+        "en": "Outdoor",
+        "tr": "Dış mekan"
+      },
+      "author": "Erdem Yıldırım",
+      "position": [
+        -12.064,
+        -5.123,
+        8.504
+      ],
+      "yawDeg": 0,
+      "lensHeight": 1.5,
+      "video": {
+        "sources": [
+          {
+            "src": "media/dis-4k.mp4",
+            "type": "video/mp4"
+          }
+        ],
+        "projection": 180,
+        "stereo": "sbs",
+        "loop": false
+      },
+      "audio": {
+        "src": "media/dis-ambix-enh.wav",
+        "format": "ambix",
+        "channelMap": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "gain": 1
+      }
+    },
+    {
+      "id": "ana-sergi",
+      "title": {
+        "en": "Main Gallery",
+        "tr": "Ana Sergi"
+      },
+      "layer": {
+        "en": "Indoor",
+        "tr": "İç mekan"
+      },
+      "author": "Erdem Yıldırım",
+      "position": [
+        -13.75,
+        13.15,
+        9.11
+      ],
+      "yawDeg": 180,
+      "lensHeight": 1.5,
+      "video": {
+        "sources": [
+          {
+            "src": "media/ic-4k.mp4",
+            "type": "video/mp4"
+          }
+        ],
+        "projection": 180,
+        "stereo": "sbs",
+        "loop": false
+      },
+      "audio": {
+        "src": "media/ic-ambix-enh.wav",
+        "format": "ambix",
+        "channelMap": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "gain": 1
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "eylul-kosk",
+      "position": [
+        -12.335,
+        -2.4,
+        8.552
+      ],
+      "height": 1.4,
+      "title": {
+        "tr": "Eylül Köşk",
+        "en": "Eylül Mansion"
+      },
+      "text": {
+        "tr": "Müze, 19. yüzyılın sonlarında İngiliz kökenli Barff ailesi tarafından yaptırılan tarihi Barff Köşkü (Eylül Köşk) içinde yer almaktadır.",
+        "en": "The museum is housed in the historic Barff Mansion (Eylül Mansion), built in the late 19th century by the Barff family of English origin."
+      }
+    },
+    {
+      "id": "tarihi-onem",
+      "position": [
+        -9.6,
+        -0.3,
+        9.1
+      ],
+      "height": 1.4,
+      "title": {
+        "tr": "Tarihi Önem",
+        "en": "Historical Significance"
+      },
+      "text": {
+        "tr": "Köşk, 1907 yılında eski Fransa İmparatoriçesi Eugénie’nin bir süre kaldığı yer olarak da bilinmektedir. Millî Mücadele döneminde Buca'daki Rumların sığındığı bir yapı olarak kullanılmıştır.",
+        "en": "The mansion is also known as the place where Eugénie, the former Empress of France, stayed for a time in 1907. During the National Struggle period it was used as a shelter by the Greeks of Buca."
+      }
+    },
+    {
+      "id": "egitimden-muzeye",
+      "position": [
+        -10.4,
+        5,
+        9.11
+      ],
+      "height": 1.4,
+      "title": {
+        "tr": "Eğitimden Müzeye",
+        "en": "From Education to Museum"
+      },
+      "text": {
+        "tr": "İlerleyen yıllarda sabunculuk yapan Manisalı Apaydın ailesine geçen yapı, daha sonra bir eğitim kurumuna bağışlanmış; 1963 yılında ise Ege Özel Mimarlık Mühendislik Yüksekokulu olarak hizmet vermiştir.",
+        "en": "In later years the building passed to the Apaydın family of Manisa, who were soap makers. It was then donated to an educational institution, and in 1963 it served as the Aegean Private School of Architecture and Engineering."
+      }
+    },
+    {
+      "id": "gunumuzde",
+      "position": [
+        -13.956,
+        8.495,
+        9.109
+      ],
+      "height": 1.4,
+      "title": {
+        "tr": "Günümüzdeki Durumu",
+        "en": "Today"
+      },
+      "text": {
+        "tr": "Dokuz Eylül Üniversitesi Dokuzçeşmeler Yerleşkesi sınırları içerisinde yer alan 5 dönümlük arazi ve tarihi köşk, bağışçı Halûk Perk'in koleksiyonu ve üniversitenin girişimleriyle 9 Eylül 2020'de (İzmir'in kurtuluş gününde) bayrak müzesi olarak kapılarını açmıştır.",
+        "en": "Located within the Dokuz Eylül University Dokuzçeşmeler Campus, the historic mansion on a five-decare plot opened its doors as a flag museum on 9 September 2020, İzmir's liberation day, thanks to the collection of the donor Halûk Perk and the university's initiative."
+      }
+    }
+  ],
+  "eyeLift": {
+    "above": 0.4,
+    "extra": 0.15
+  },
+  "splats": [],
+  "ambience": [
+    {
+      "id": "outdoor",
+      "zone": "outdoor",
+      "src": "media/amb-outdoor.wav",
+      "yawDeg": 0,
+      "gain": 1.0
+    },
+    {
+      "id": "indoor",
+      "zone": "indoor",
+      "src": "media/amb-indoor.wav",
+      "yawDeg": 180,
+      "gain": 1.0
+    }
+  ],
+  "ambienceDoor": {
+    "z": -1.3,
+    "fade": 2.5,
+    "xMin": -19.6,
+    "xMax": -7.2
+  }
+}
